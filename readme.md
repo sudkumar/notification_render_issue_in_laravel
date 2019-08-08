@@ -11,6 +11,7 @@ According to [docs](https://laravel.com/docs/5.8/notifications#previewing-mail-n
 ```
 git clone git@github.com:sudkumar/notification_render_issue_in_laravel.git
 cd notification_render_issue_in_laravel
+cp .env.example .env
 composer install
 php artisan key:generate
 php artisan serve
